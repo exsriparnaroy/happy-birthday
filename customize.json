@@ -1,7 +1,7 @@
 {
   "greeting": "Hi",
   "name": "Sriparna",
-  "greetingText": "Ami Ayus amake chinte parchis ?",
+  "greetingText": "Ami Ayus, one of your friends 👋",
   "wishText": "May the js.prototypes always be with you! ;)",
   "imagePath": "img/lydia2.png",
   "text1": "Ajke Tor Birthday!!! :D",
@@ -19,5 +19,5 @@
   "wishHeading": "Happy 19th Birthday !",
   "outroText": "Okay, now come back and tell me if you liked it.",
   "replayText": "Ebar ekhane teph, chol tor birthday celebrate kori eksathe ^_^",
-  "outroSmiley": ""
+  "outroSmiley": ":)"
 }
