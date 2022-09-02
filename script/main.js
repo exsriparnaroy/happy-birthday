@@ -298,7 +298,7 @@ const animationTimeline = () => {
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
   replyBtn.addEventListener("click", () => {
-    window.location.href = "https://www.google.com"
+    window.location.href = "http://iamalazycoder.github.io/birthday/"
   });
 };
 
