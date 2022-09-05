@@ -1,3 +1,5 @@
+var audio = new Audio('Liquid Time');
+audio.play();
 // Import the data to customize and insert them into page
 const fetchData = () => {
   fetch("customize.json")
