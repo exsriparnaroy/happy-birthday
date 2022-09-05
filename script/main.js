@@ -307,6 +307,7 @@ const animationTimeline = () => {
 };
 
 // Run fetch and animation in sequence
+fetchData();
 $.when(fetchData()).then(function(){
     close();
 })
