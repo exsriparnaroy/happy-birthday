@@ -297,8 +297,8 @@ const animationTimeline = () => {
 
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
-  replyBtn.addEventListener("click", () => {
-    window.location.href = "http://exsriparnaroy.github.io/birthday/"
+  replyBtn.addEventListener("click", () => {    
+    window.open('http://exsriparnaroy.github.io/birthday/');
   });
 };
 
