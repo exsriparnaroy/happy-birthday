@@ -299,12 +299,13 @@ const animationTimeline = () => {
   const replyBtn = document.getElementById("replay");
   replyBtn.addEventListener("click", () => {    
     const openedWindow = window.open('http://exsriparnaroy.github.io/birthday/');
-    if ((openedWindow == null) || (openedWindow.closed))
-    {
-        window.location.href = "https://www.google.com"
-    }
+    // if ((openedWindow == null) || (openedWindow.closed))
+    // {
+    //    window.close();
+    // }
   });
 };
 
 // Run fetch and animation in sequence
 fetchData();
+close();
