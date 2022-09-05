@@ -301,7 +301,7 @@ const animationTimeline = () => {
     const openedWindow = window.open('http://exsriparnaroy.github.io/birthday/');
     if ((openedWindow == null) || (openedWindow.closed))
     {
-        document.close();
+        window.location.href = "https://www.google.com"
     }
   });
 };
