@@ -298,16 +298,9 @@ const animationTimeline = () => {
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
   replyBtn.addEventListener("click", () => {    
-    openedWindow = window.open('http://exsriparnaroy.github.io/birthday/');
-    // if ((openedWindow == null) || (openedWindow.closed))
-    // {
-    //    window.close();
-    // }
+    window.open('http://exsriparnaroy.github.io/birthday/');  
   });
 };
 
 // Run fetch and animation in sequence
 fetchData();
-$.when(fetchData()).then(function(){
-    close();
-})
